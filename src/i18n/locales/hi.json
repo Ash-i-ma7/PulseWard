@@ -1,0 +1,169 @@
+{
+  "app": {
+    "name": "PulseWard",
+    "tagline": "अर्ली वार्निंग स्कोर मॉनिटर"
+  },
+  "nav": {
+    "wardCensus": "वार्ड सूची",
+    "alertQueue": "अलर्ट कतार",
+    "wardAnalytics": "वार्ड विश्लेषण"
+  },
+  "sim": {
+    "live": "लाइव",
+    "paused": "रुका हुआ",
+    "pulse": "पल्स",
+    "interval3s": "3 सेकंड अंतराल",
+    "interval5s": "5 सेकंड अंतराल",
+    "interval10s": "10 सेकंड अंतराल",
+    "interval20s": "20 सेकंड अंतराल",
+    "manualRefreshTriggered": "मैनुअल वाइटल्स रीफ्रेश ट्रिगर किया गया"
+  },
+  "dataSource": {
+    "label": "डेटा स्रोत",
+    "demo": "डेमो (सिम्युलेटेड)",
+    "live": "लाइव (बैकएंड)",
+    "connecting": "बैकएंड से कनेक्ट हो रहा है...",
+    "connected": "बैकएंड से जुड़ा हुआ",
+    "connectionFailed": "बैकएंड तक नहीं पहुंच सका — डेमो डेटा दिखाया जा रहा है"
+  },
+  "overview": {
+    "title": "वार्ड सूची",
+    "subtitle": "{{count}} मरीज़ \u00b7 {{protocol}} जोखिम के अनुसार क्रमबद्ध \u00b7 {{fullName}}",
+    "critical": "गंभीर",
+    "medium": "मध्यम",
+    "lowMedium": "निम्न-मध्यम",
+    "stable": "स्थिर",
+    "searchPlaceholder": "नाम, कमरा या निदान से खोजें...",
+    "allWards": "सभी वार्ड",
+    "allRiskLevels": "सभी जोखिम स्तर",
+    "noResults": "वर्तमान फ़िल्टर से कोई मरीज़ मेल नहीं खाता।"
+  },
+  "patient": {
+    "backToCensus": "वार्ड सूची",
+    "admitted": "भर्ती तिथि",
+    "heartRate": "हृदय गति",
+    "respRate": "श्वसन दर",
+    "spo2": "SpO2",
+    "temperature": "तापमान",
+    "bloodPressure": "रक्तचाप",
+    "consciousness": "चेतना",
+    "clinicalNotes": "क्लिनिकल नोट्स",
+    "patientAlerts": "मरीज़ अलर्ट",
+    "printReport": "रिपोर्ट प्रिंट करें",
+    "manualEntry": "मैनुअल एंट्री"
+  },
+  "charts": {
+    "hrRespTrend": "हृदय गति और श्वसन प्रवृत्ति",
+    "last6Points": "पिछले 6 टेलीमेट्री बिंदु",
+    "spo2ScoreTrend": "SpO2 और {{protocol}} स्कोर प्रवृत्ति",
+    "escalationTracker": "एस्केलेशन ट्रैकर",
+    "criticalThreshold": "गंभीर सीमा >= {{threshold}}"
+  },
+  "breakdown": {
+    "componentBreakdown": "{{protocol}} घटक विवरण",
+    "points": "अंक",
+    "escalationGuidance": "एस्केलेशन दिशानिर्देश"
+  },
+  "alerts": {
+    "title": "अलर्ट कतार",
+    "activeOfTotal": "कुल {{total}} में से {{active}} सक्रिय अलर्ट",
+    "noAlerts": "कोई अलर्ट दर्ज नहीं हुआ है।",
+    "acknowledge": "स्वीकार करें",
+    "escalate": "एस्केलेट / RRT",
+    "active": "सक्रिय",
+    "acknowledged": "स्वीकृत",
+    "escalated": "एस्केलेटेड",
+    "acknowledgedToast": "अलर्ट स्वीकार किया गया",
+    "escalatedToast": "रैपिड रिस्पॉन्स टीम को सूचित किया गया"
+  },
+  "analytics": {
+    "title": "वार्ड विश्लेषण",
+    "subtitle": "{{count}} मरीज़ों में {{fullName}} जोखिम वितरण",
+    "averageScore": "औसत स्कोर",
+    "liveTelemetry": "लाइव टेलीमेट्री",
+    "pausedTelemetry": "रुका हुआ",
+    "simulatedFeed": "सिम्युलेटेड डेमो फ़ीड",
+    "riskDistribution": "जोखिम वितरण",
+    "avgScoreByWard": "वार्ड के अनुसार औसत स्कोर"
+  },
+  "manualEntry": {
+    "title": "मैनुअल वाइटल्स एंट्री",
+    "subtitle": "{{name}} के लिए अवलोकन दर्ज करें",
+    "heartRate": "हृदय गति (bpm)",
+    "respRate": "श्वसन दर (/मिनट)",
+    "bpSys": "सिस्टोलिक BP (mmHg)",
+    "bpDia": "डायस्टोलिक BP (mmHg)",
+    "spo2": "SpO2 (%)",
+    "temp": "तापमान (\u00b0C)",
+    "oxygenSupport": "पूरक ऑक्सीजन पर",
+    "consciousness": "चेतना (ACVPU)",
+    "consciousnessAlert": "सचेत",
+    "consciousnessConfusion": "नया भ्रम",
+    "consciousnessVoice": "आवाज़ पर प्रतिक्रिया",
+    "consciousnessPain": "दर्द पर प्रतिक्रिया",
+    "consciousnessUnresponsive": "अप्रतिक्रियाशील",
+    "cancel": "रद्द करें",
+    "submit": "अवलोकन सबमिट करें",
+    "submitting": "सबमिट हो रहा है...",
+    "success": "अवलोकन दर्ज किया गया",
+    "validationError": "कृपया हाइलाइट किए गए फ़ील्ड जांचें — मान सामान्य सीमा से बाहर लगते हैं।",
+    "outOfRangeWarning": "यह मान सामान्य शारीरिक सीमा से बाहर है। सबमिट करने से पहले दोबारा जांचें।"
+  },
+  "print": {
+    "demoWatermark": "PulseWard द्वारा जनरेट किया गया — डेमो डेटा, वास्तविक क्लिनिकल रिकॉर्ड नहीं",
+    "generatedAt": "जनरेट किया गया",
+    "protocol": "प्रोटोकॉल",
+    "currentScore": "वर्तमान स्कोर",
+    "componentBreakdown": "घटक विवरण",
+    "recentTrend": "हालिया प्रवृत्ति",
+    "alertHistory": "अलर्ट इतिहास",
+    "noAlertHistory": "कोई अलर्ट दर्ज नहीं।",
+    "patientInfo": "मरीज़ की जानकारी",
+    "room": "कमरा",
+    "ward": "वार्ड",
+    "diagnosis": "निदान",
+    "attending": "उपस्थित चिकित्सक",
+    "admissionDate": "भर्ती तिथि"
+  },
+  "footer": {
+    "demoNotice": "डेमो डेटा सूचना: सभी मरीज़, वाइटल्स और अलर्ट प्रदर्शन के लिए सिम्युलेटेड हैं। कोई वास्तविक क्लिनिकल रिकॉर्ड उपयोग नहीं किया गया है।"
+  },
+  "language": {
+    "label": "भाषा",
+    "en": "English",
+    "hi": "\u0939\u093f\u0902\u0926\u0940",
+    "mr": "\u092e\u0930\u0930\u093e\u0920\u0940"
+  },
+  "theme": {
+    "switchToLight": "लाइट मोड पर स्विच करें",
+    "switchToDark": "डार्क मोड पर स्विच करें"
+  },
+  "clinical": {
+    "allergies": "एलर्जी और चेतावनियाँ",
+    "noKnownAllergies": "कोई ज्ञात दवा एलर्जी नहीं",
+    "medicalHistory": "चिकित्सा इतिहास",
+    "noHistory": "कोई महत्वपूर्ण चिकित्सा इतिहास दर्ज नहीं है।",
+    "currentMedications": "वर्तमान दवाएँ",
+    "noCurrentMeds": "कोई वर्तमान दवा दर्ज नहीं है।",
+    "pastMedications": "पिछली दवाएँ",
+    "noPastMeds": "कोई दर्ज नहीं।",
+    "discontinuedNote": "टिप्पणी"
+  },
+  "careLog": {
+    "title": "केयर लॉग",
+    "subtitle": "नर्सों और चिकित्सकों के समयबद्ध नोट्स",
+    "addEntry": "प्रविष्टि जोड़ें",
+    "authorName": "आपका नाम",
+    "role": "भूमिका",
+    "roleNurse": "नर्स",
+    "rolePhysician": "चिकित्सक",
+    "roleOther": "अन्य",
+    "entryPlaceholder": "अवलोकन, की गई कार्रवाई, या हैंडऑफ़ नोट्स दर्ज करें...",
+    "submit": "प्रविष्टि सहेजें",
+    "submitting": "सहेजा जा रहा है...",
+    "cancel": "रद्द करें",
+    "noEntries": "अभी तक कोई केयर लॉग प्रविष्टि नहीं है।",
+    "entrySaved": "केयर लॉग प्रविष्टि सहेजी गई",
+    "validationError": "कृपया सहेजने से पहले अपना नाम और एक नोट दर्ज करें।"
+  }
+}
